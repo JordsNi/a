@@ -5,7 +5,7 @@ while True:   # While loop nga e padayun ang dula until na ma pul an ang user
     bet = input("\n'Bet Game'\nEnter you 3 digit bet (or press 0 to quit): ").strip()   # nangayo ug input sa user
     win = str(randint(000,999))   # string na randomized number na ihatag ni win
     
-    if bet == 0:   # if ang input is 0 lang
+    if bet == '0':   # if ang input is 0 lang
         print("Bet game stopped! ayaw nag sugal")   # e print ni
         break   # so sad
     
